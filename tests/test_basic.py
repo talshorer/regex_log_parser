@@ -77,6 +77,7 @@ def test_subclass() -> None:
 
     p = Sub()
     p.run(DATA_BASIC)
+    assert p.r2 == [7, 10]
     assert p.r4 == 1
 
 
